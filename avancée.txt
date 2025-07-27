@@ -1,0 +1,51 @@
+🧩 1. Avancer avec un vrai MVP fonctionnel
+On commence avec une version simplifiée du projet mais fonctionnelle, pour poser :
+
+la base du backend NestJS
+
+la base de l’app Flutter
+
+la base de données PostgreSQL/PostGIS
+
+un petit module fonctionnel (ex. authentification + réservation simple)
+
+👉 L’objectif : voir tout le flux complet tourner avant de perfectionner quoi que ce soit.
+
+🔄 2. Alterner théorie et implémentation
+À chaque fois qu’on attaque un bloc :
+
+On fait juste assez de théorie pour comprendre les enjeux
+
+Puis on implémente le plus tôt possible
+
+On documente ensuite au fur et à mesure dans un dossier docs/ (pas avant)
+
+🧗‍♂️ 3. Ce que je te propose concrètement
+🧱 Phase 1 : Démarrage minimal mais réel
+
+Module	Objectif	Technologies
+Authentification	Un client peut créer un compte et se connecter	NestJS + Firebase Auth (ou JWT maison si tu préfères maîtriser)
+Réservation de course	Le client peut envoyer une demande de trajet (sans paiement pour l’instant)	API REST + PostgreSQL
+Affichage mobile	App Flutter simple pour consommer l’API (connexion, bouton réserver)	Flutter
+
+💡 Avec ça, tu maîtriseras :
+
+NestJS (avec un module concret)
+
+La base de données et les modèles
+
+Les routes et la logique d’API
+
+Flutter pour le frontend mobile
+
+Ensuite, on pourra empiler :
+
+WebSocket temps réel
+
+Affectation chauffeur
+
+Paiement
+
+Admin panel
+
+etc.
